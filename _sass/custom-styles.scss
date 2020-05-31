@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,300italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Palanquin:300,400,700);
+@import "icons";
+
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-size: 2em;
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto';
+    text-shadow: none;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 15, 49);
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+}
+
+.bigphoto {
+    background-image: url("/assets/img/iurii-1280x800.png");
+    min-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+ul.contacts {
+    list-style-type: none;
+    padding: 1em;
+}
+
+ul.contacts>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+ul.contacts>li>a>span {
+    padding: 1em;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-family: 'Palanquin';
+    color: #293241;
+    text-shadow: 0px 0px 3px white;
+    margin: 0 2em;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: 'Palanquin';
+    margin: auto 1em auto 1em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin: 1em 2em;
+    padding: 0 2em;
+}
+
+section.even {
+    border-left: 2px solid #98c1d9;
+}
+
+section.odd {
+    border-right: 2px solid #98c1d9;
+}
+
+section.even>header {
+    border-left: 2em solid #ee6c4d;
+    padding-left: 1em;
+    text-align: left;
+    background-color: #98c1d9;
+}
+
+section.odd>header {
+    border-right: 2em solid #ee6c4d;
+    padding-right: 1em;
+    text-align: right;
+    background-color: #98c1d9;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #293241;
+    text-align: center;
+    padding: 1em;
+    font-size: .7em;
+    color: #98c1d9;
+}
+footer>a {
+    color: #98c1d9;
+}
+
+@media only screen and (min-width: 1600px) {
+    .bigphoto {
+        min-height: 1100px;
+    }
+    main {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    h1 {
+        font-size: 1.5em;
+        margin: 0 1em;
+    }
+    .bigphoto {
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        font-size: 1em;
+        line-height: 1.2;
+    }
+    .bigphoto {
+        background-image: url("/assets/img/iurii-640x500.png");
+        min-height: 500px;
+    }
+    main {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    body {
+        font-size: 1em;
+        line-height: 1;
+    }
+    .bigphoto {
+        background-image: url("/assets/img/iurii-460x500.png");
+        min-height: 460px;
+    }
+    section {
+        margin: 0.5em 1em;
+        padding: 0 1em;
+    }
+}

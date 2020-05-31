@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600">
+    <defs/>
+    <g font-family="Impact" text-anchor="middle">
+        <text fill="#393b79" font-size="10" transform="translate(667.937 420.635)">
+      JavaScript
+        </text>
+        <text fill="#6b6ecf" font-size="46" transform="translate(702.222 399.048)">
+      SQL
+        </text>
+        <text fill="#9c9ede" font-size="100" transform="translate(554.92 440.952)">
+      C++
+        </text>
+        <text fill="#637939" font-size="64" transform="translate(439.365 315.238)">
+      Python
+        </text>
+        <text fill="#8ca252" font-size="64" transform="translate(280.635 306.35)">
+      Go
+        </text>
+        <text fill="#b5cf6b" font-size="28" transform="translate(147.302 313.968)">
+      Kubernetes
+        </text>
+        <text fill="#cedb9c" font-size="46" transform="translate(742.857 126.032)">
+      C
+        </text>
+        <text fill="#8c6d31" font-size="46" transform="translate(707.302 169.206)">
+      Linux
+        </text>
+        <text fill="#bd9e39" font-size="28" transform="translate(60.952 470.159)">
+      DBMS
+        </text>
+        <text fill="#e7ba52" font-size="28" transform="translate(308.571 346.984)">
+      Docker
+        </text>
+        <text fill="#e7cb94" font-size="28" transform="translate(600.635 453.65)">
+      Database
+        </text>
+        <text fill="#843c39" font-size="28" transform="translate(201.905 519.683)">
+      golang
+        </text>
+        <text fill="#ad494a" font-size="28" transform="translate(603.175 198.413)">
+      K8s
+        </text>
+        <text fill="#d6616b" font-size="10" transform="translate(528.254 171.746)">
+      Oracle
+        </text>
+        <text fill="#e7969c" font-size="46" transform="translate(659.048 250.476)">
+      DevOps
+        </text>
+        <text fill="#7b4173" font-size="10" transform="translate(511.746 249.206)">
+      bash
+        </text>
+        <text fill="#a55194" font-size="10" transform="translate(438.095 468.889)">
+      shell
+        </text>
+        <text fill="#ce6dbd" font-size="10" transform="translate(462.222 456.19)">
+      MySQL
+        </text>
+        <text fill="#de9ed6" font-size="28" transform="translate(589.206 348.254)">
+      Postgres
+        </text>
+        <text fill="#393b79" font-size="10" transform="translate(482.54 471.429)">
+      Delphi
+        </text>
+        <text fill="#5254a3" font-size="10" transform="translate(182.857 279.683)">
+      Billing
+        </text>
+        <text fill="#6b6ecf" font-size="10" transform="translate(255.238 374.92)">
+      Pascal
+        </text>
+        <text fill="#9c9ede" font-size="10" transform="translate(405.08 175.556)">
+      TypeScript
+        </text>
+        <text fill="#637939" font-size="10" transform="translate(222.222 273.333)">
+      Java
+        </text>
+        <text fill="#8ca252" font-size="10" transform="translate(476.19 133.65)">
+      Scala
+        </text>
+        <text fill="#b5cf6b" font-size="10" transform="translate(213.333 250.476)">
+      Erlang
+        </text>
+        <text fill="#8c6d31" font-size="10" transform="translate(518.095 451.111)">
+      Elm
+        </text>
+        <text fill="#bd9e39" font-size="10" transform="translate(266.667 362.222)">
+      zsh
+        </text>
+        <text fill="#e7ba52" font-size="10" transform="translate(412.698 161.587)">
+      make
+        </text>
+        <text fill="#e7cb94" font-size="28" transform="translate(468.571 173.016)">
+      git
+        </text>
+        <text fill="#843c39" font-size="10" transform="translate(422.857 362.222)">
+      mercurial
+        </text>
+        <text fill="#d6616b" font-size="10" transform="translate(483.81 485.397)">
+      Telecommunications
+        </text>
+        <text fill="#7b4173" font-size="10" transform="translate(750.476 426.984)">
+      GSM
+        </text>
+        <text fill="#a55194" font-size="10" transform="translate(330.159 146.35)">
+      VoIP
+        </text>
+        <text fill="#ce6dbd" font-size="10" transform="translate(620.952 287.302)">
+      ansible
+        </text>
+        <text fill="#de9ed6" font-size="10" transform="translate(603.175 414.286)">
+      vim
+        </text>
+        <text fill="#393b79" font-size="10" transform="translate(717.46 197.143)">
+      pixelart
+        </text>
+        <text fill="#5254a3" font-size="10" transform="translate(408.889 336.825)">
+      SQLServer
+        </text>
+        <text fill="#6b6ecf" font-size="10" transform="translate(444.444 499.365)">
+      Administration
+        </text>
+        <text fill="#637939" font-size="10" transform="translate(763.175 183.175)">
+      kernel
+        </text>
+        <text fill="#8ca252" font-size="10" transform="translate(615.873 319.048)">
+      cmake
+        </text>
+        <text fill="#b5cf6b" font-size="10" transform="translate(622.222 301.27)">
+      protobuf
+        </text>
+        <text fill="#cedb9c" font-size="10" transform="translate(532.063 367.302)">
+      lua
+        </text>
+        <text fill="#8c6d31" font-size="10" transform="translate(364.444 162.857)">
+      TCPIP
+        </text>
+        <text fill="#bd9e39" font-size="10" transform="translate(241.27 330.476)">
+      UDP
+        </text>
+        <text fill="#e7ba52" font-size="10" transform="translate(543.492 253.016)">
+      web
+        </text>
+        <text fill="#e7cb94" font-size="28" transform="translate(730.159 343.175)">
+      backend
+        </text>
+        <text fill="#843c39" font-size="28" transform="translate(568.889 155.238)">
+      networks
+        </text>
+        <text fill="#ad494a" font-size="10" transform="translate(328.889 164.127)">
+      HTTP
+        </text>
+        <text fill="#d6616b" font-size="10" transform="translate(623.492 268.254)">
+      storage
+        </text>
+        <text fill="#7b4173" font-size="10" transform="translate(718.73 183.175)">
+      Grafana
+        </text>
+        <text fill="#a55194" font-size="10" transform="translate(184.127 327.937)">
+      Prometheus
+        </text>
+        <text fill="#ce6dbd" font-size="10" transform="translate(446.984 348.254)">
+      ELK
+        </text>
+        <text fill="#5254a3" font-size="46" transform="translate(289.524 133.65)">
+      DBA
+        </text>
+        <text fill="#6b6ecf" font-size="28" transform="translate(627.302 486.667)">
+      BA
+        </text>
+        <text fill="#9c9ede" font-size="10" transform="translate(723.81 310.159)">
+      Integration
+        </text>
+        <text fill="#8ca252" font-size="64" transform="translate(339.048 236.508)">
+      management
+        </text>
+        <text fill="#b5cf6b" font-size="46" transform="translate(246.35 486.667)">
+      leadership
+        </text>
+        <text fill="#cedb9c" font-size="10" transform="translate(436.825 437.143)">
+      hiring
+        </text>
+        <text fill="#8c6d31" font-size="10" transform="translate(476.19 331.746)">
+      PostgreSQL
+        </text>
+        <text fill="#bd9e39" font-size="64" transform="translate(233.65 435.873)">
+      Cachelot
+        </text>
+        <text fill="#e7ba52" font-size="10" transform="translate(283.175 503.175)">
+      Windows
+        </text>
+        <text fill="#e7cb94" font-size="10" transform="translate(340.317 178.095)">
+      MacOS
+        </text>
+        <text fill="#843c39" font-size="10" transform="translate(585.397 372.381)">
+      noSQL
+        </text>
+    </g>
+</svg>
+
