@@ -8,12 +8,13 @@ html {
 }
 
 body {
-    font-size: 2em;
-    line-height: 1.4;
+    font-size: 1.2em;
+    line-height: 1.2;
     font-weight: 300;
     font-family: 'Roboto';
     text-shadow: none;
-    min-height: 100%;
+    margin: 0;
+    width: 100%;
 }
 
 a {
@@ -21,19 +22,17 @@ a {
     color: rgb(5, 15, 49);
 }
 
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.bigphoto {
-    background-image: url("/assets/img/iurii-1280x800.png");
+nav {
     min-height: 800px;
+    background-image: url("/assets/img/iurii-1280x800.png");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: right;
     padding-right: 1em;
+    position: relative;
+    top: 0px;
+    left: -2px;
+    right: 2px;
 }
 
 ul.contacts {
@@ -59,6 +58,7 @@ h1 {
     color: #293241;
     text-shadow: 0px 0px 3px white;
     margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -67,8 +67,15 @@ h2 {
     text-align: center;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 section {
     width: 90%;
+    max-width: 1200px;
     text-align: left;
 }
 
@@ -125,26 +132,22 @@ footer>a {
 
 
 @media only screen and (min-width: 1600px) and (min-height: 1300px) {
-    .bigphoto {
+    nav {
         min-height: 1100px;
     }
 }
 
 @media only screen and (max-width: 940px) {
-    body {
-        font-size: 1.3em;
-        line-height: 1.2;
-    }
     h1 {
         font-size: 1.3em;
     }
-    .bigphoto {
+    nav {
         min-height: 500px;
     }
 }
 
 @media only screen and (max-width: 640px) {
-    .bigphoto {
+    nav {
         background-image: url("/assets/img/iurii-640x500.png");
         min-height: 500px;
     }
@@ -153,14 +156,13 @@ footer>a {
 @media only screen and (max-width: 460px) {
     body {
         font-size: 1em;
-        line-height: 1.2;
     }
     h1 {
         font-size: 1.3em;
         margin: 0;
         padding: 0;
     }
-    .bigphoto {
+    nav {
         background-image: url("/assets/img/iurii-460x500.png");
         min-height: 460px;
     }
