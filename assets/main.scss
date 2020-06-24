@@ -94,7 +94,7 @@ section>header {
 }
 
 section>main {
-    margin: 1em auto 1em 2px;
+    margin: 1em 1em 1em 2px;
     padding-left: 1em;
     border-left: 1px solid #98c1d9;
 }
@@ -167,5 +167,8 @@ footer>a {
     }
     section {
         width: 98%;
+    }
+    section>header {
+        padding-left: 1em;
     }
 }
