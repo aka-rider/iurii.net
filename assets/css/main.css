@@ -18,6 +18,7 @@ body {
   margin: 0;
   width: 100%;
   background-color: #f5f5f5;
+  line-height: normal;
 }
 
 a {
@@ -34,7 +35,7 @@ ul {
   background-image: url("/assets/img/iurii-1280x800.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px -5px;
+  background-position: -1px -5px;
   text-align: right;
   padding-right: 2em;
 }
@@ -42,17 +43,23 @@ ul {
 #main-photo-text {
   float: right;
   text-align: right;
-  padding-top: 12em;
+  padding-top: 18em;
 }
 
 #main-photo-text h1 {
-  background-color: rgba(200, 200, 200, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   width: fit-content;
+  color: white;
+  letter-spacing: 3px;
+  padding: 10px 20px;
 }
 
 #main-photo-text h3 {
-  background-color: rgba(200, 200, 200, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 0 1em 0 1em;
+  color: white;
+  letter-spacing: 2px;
+  padding: 7px 15px;
 }
 
 #sticky-header {
@@ -106,6 +113,7 @@ article {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 header {
@@ -113,12 +121,11 @@ header {
 }
 
 section {
-  width: 90%;
-  max-width: 1200px;
   text-align: left;
   background-color: white;
   margin-top: 1em;
   box-shadow: 0 1px 1px #a5a5a5;
+  width: 98%;
 }
 
 section > h3 {
@@ -130,7 +137,7 @@ section > h3 {
   margin: 0;
 }
 
-section > main {
+section > div {
   margin: 1em 1em 1em 2px;
   padding-left: 1em;
 }
@@ -174,10 +181,10 @@ footer {
   background-color: #293241;
   text-align: center;
   padding: 1em;
-  font-size: 0.7em;
+  font-size: 0.9em;
   color: #98c1d9;
 }
-footer > a {
+footer a {
   color: #98c1d9;
 }
 
@@ -194,12 +201,20 @@ footer > a {
   #main-photo {
     min-height: 500px;
   }
+  #main-photo-text {
+    padding-top: 12em;
+  }
+
+  #main-photo-text h3 {
+    letter-spacing: 1px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
   #main-photo {
     background-image: url("/assets/img/iurii-640x500.png");
     min-height: 500px;
+    padding-right: 1em;
   }
 }
 
