@@ -1,0 +1,71 @@
+#main {
+  display: flex;
+  flex-direction: row;
+  min-height: 800px;
+  min-width: 100%;
+  background-image: url("/assets/img/iurii-2560×1440.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+#main-photo {
+  flex: 50%;
+}
+
+#main-cta-area {
+  flex: 50%;
+  color: white;
+  padding: 0 2em 0 2em;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8));
+}
+
+#main-cta-area a {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+#main-cta-area a span {
+  margin-right: 0.5em;
+}
+
+#main-cta-area h1,
+#main-cta-area h3,
+#main-cta-area h5 {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0 1em 0 1em;
+  margin: 0;
+  color: #f0f0f0;
+}
+
+#main-cta-area h1 {
+  margin-top: 2em;
+}
+
+#main-cta-area h3,
+#main-cta-area h5 {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1200px) {
+  #main {
+    flex-direction: column;
+  }
+  #main-cta-area {
+    background-image: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(0, 0, 0, 0.8)
+    );
+  }
+  #main-photo {
+    min-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  #main {
+    background-image: url("/assets/img/iurii-720×1280.webp");
+  }
+}

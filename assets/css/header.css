@@ -1,0 +1,48 @@
+#sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #293241;
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+#sticky-header span {
+  font-size: 18px;
+}
+
+#sticky-header ul {
+  margin: 0;
+  padding: 0.2em 0 0.2em 0;
+}
+
+#sticky-header li {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+#sticky-header a:hover {
+  opacity: 0.7;
+}
+
+#sticky-header-home a {
+  color: white;
+}
+
+#sticky-header-contacts a {
+  color: white;
+  font-size: 12px;
+}
+
+#sticky-header-contacts span {
+  color: #ff5e14;
+  padding-right: 0.7em;
+}
+
+#sticky-header-social {
+  margin-right: 1em;
+}

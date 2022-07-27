@@ -1,12 +1,22 @@
 <header id="sticky-header">
-    <nav style="width: 90%; margin: 0 auto;">
-        <ul id="contacts">
-            <li><a href="mailto:hello@iurii.net" target="_blank"><span class="icon-envelope"></span></a></li>
-            <li><a href="https://www.linkedin.com/in/iuriik/" target="_blank"><span class="icon-linkedin"></span></a></li>
-            <li><a href="https://twitter.com/iurii_k" target="_blank"><span class="icon-twitter"></span></a></li>
-            <li><a href="https://medium.com/@aka.rider" target="_blank"><span class="icon-medium"></span></a></li>
-            <li><a href="https://github.com/aka-rider/" target="_blank"><span class="icon-github"></span></a></li>
-            <li><a href="https://github.com/aka-rider/" target="_blank"><span class="fab fa-telegram"></span></a></li>
+    <div id="sticky-header-home">
+        <ul>
+            <li><a href="{{site.url}}"><span class="icon-home"></span></a></li>
         </ul>
-    </nav>
+    </div>
+    <div id="sticky-header-contacts">
+        <ul>
+            <li><a href="#"><span class="icon-map-marker"></span>{{site.location}}</a></li>
+            <li><a href="mailto:{{site.email}}" target="_blank"><span class="icon-envelope-o"></span>{{site.email}}</a></li>
+            <li><a href="tel:{{site.phone}}" target="_blank"><span class="icon-mobile"></span>{{site.phone}}</a></li>
+        </ul>
+    </div>
+    <div id="sticky-header-social">
+        <ul>
+            <li><a href="{{site.linkedin}}" target="_blank"><span class="icon-linkedin"></span></a></li>
+            <li><a href="{{site.twitter}}" target="_blank"><span class="icon-twitter"></span></a></li>
+            <li><a href="{{site.medium}}" target="_blank"><span class="icon-medium"></span></a></li>
+            <li><a href="{{site.github}}" target="_blank"><span class="icon-github"></span></a></li>
+        </ul>
+    </div>
 </header>
