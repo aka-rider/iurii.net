@@ -21,13 +21,18 @@
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8));
 }
 
+#main-cta-area ul {
+  padding: 0 0 0 1em;
+}
+
 #main-cta-area a {
   color: white;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
 #main-cta-area a span {
-  margin-right: 0.5em;
+  margin: 0 0.5em 0 0;
+  padding: 0;
 }
 
 #main-cta-area h1,
@@ -64,8 +69,40 @@
   }
 }
 
+#open-source-projects {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.open-source-project-wrap {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  border-radius: var(--border-radius);
+  margin: 20px;
+}
+
+.open-source-project-wrap-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  vertical-align: middle;
+  margin: 1em;
+}
+
+.open-source-project-wrap-links span {
+  padding-right: 0.5em;
+}
+
 @media only screen and (max-width: 870px) {
   #main {
     background-image: url("/assets/img/iurii-720×1280.webp");
+  }
+  #open-source-projects {
+    flex-direction: column;
+  }
+
+  .open-source-project-wrap {
+    width: 90%;
   }
 }

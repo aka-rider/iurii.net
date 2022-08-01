@@ -1,8 +1,8 @@
 footer {
-  background-color: #293241;
+  background-color: var(--dark-bg);
   text-align: center;
   padding: 1em;
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #98c1d9;
 }
 footer a {

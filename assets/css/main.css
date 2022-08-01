@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700");
 @import url(icomoon.css);
+@import url(vars.css);
 @import url(header.css);
 @import url(homepage.css);
 @import url(footer.css);
@@ -31,12 +32,11 @@ h6 {
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 a {
   text-decoration: none;
-  color: rgb(5, 15, 49);
 }
 
 ul {
@@ -44,6 +44,49 @@ ul {
 }
 
 p {
-  margin: 1em 0 1em 0;
-  padding-left: 1em;
+  margin: 1em;
+  color: #7e7e7e;
+}
+
+section h2 {
+  position: relative;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+}
+
+section h2::before {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  width: 50%;
+  height: 2px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: var(--orange);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  font-weight: normal;
+  font-size: 1em;
+  vertical-align: middle;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: var(--border-radius);
+  border: none;
+  color: var(--orange);
+}
+
+.btn-primary {
+  background-color: #4183c4;
+  color: white;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: #3e6a7d;
 }

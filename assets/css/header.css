@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #293241;
+  background-color: var(--dark-bg);
   z-index: 9999;
   display: flex;
   flex-direction: row;
@@ -13,11 +13,12 @@
 
 #sticky-header span {
   font-size: 18px;
+  width: 18px;
 }
 
 #sticky-header ul {
   margin: 0;
-  padding: 0.2em 0 0.2em 0;
+  padding: 0.4em 0 0.4em 0;
 }
 
 #sticky-header li {
@@ -39,10 +40,14 @@
 }
 
 #sticky-header-contacts span {
-  color: #ff5e14;
-  padding-right: 0.7em;
+  color: var(--orange);
+  padding-right: 0.5em;
 }
 
 #sticky-header-social {
   margin-right: 1em;
+}
+
+#sticky-header-social a {
+  color: white;
 }

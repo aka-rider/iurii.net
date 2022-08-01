@@ -8,11 +8,14 @@ PORT := 4000
 all: build
 
 build:
-	docker run --rm --volume="$(PROJ_ROOT):/srv/jekyll" -it $(DOCKER_IMG) jekyll build
+	docker run --rm --volume="$(PROJ_ROOT):/srv/jekyll" -e "JEKYLL_ENV=production" -it $(DOCKER_IMG) jekyll build
 
-serve:
-	@echo "http://localhost:$(PORT)/"
-	docker run -p $(PORT):$(PORT) --volume="$(PROJ_ROOT):/srv/jekyll" -it $(DOCKER_IMG) jekyll serve --watch --incremental --drafts --port $(PORT)
+_config.docker.yml: Makefile
+	@echo 'url: http://localhost:$(PORT)/' > $@
+
+serve: _config.docker.yml
+	@echo 'http://localhost:$(PORT)/'
+	docker run -p $(PORT):$(PORT) --volume="$(PROJ_ROOT):/srv/jekyll" -e "JEKYLL_ENV=local" -it $(DOCKER_IMG) jekyll serve --watch --incremental --drafts --config _config.yml,_config.docker.yml
 
 clean:
 	rm -rf "$(PROJ_ROOT)/_site/"*
