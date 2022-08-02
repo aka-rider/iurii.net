@@ -14,6 +14,7 @@
 #sticky-header span {
   font-size: 18px;
   width: 18px;
+  vertical-align: middle;
 }
 
 #sticky-header ul {

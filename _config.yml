@@ -2,12 +2,11 @@
 # All global variables are stored here
 title: Iurii /Yuriy/ Krasnoshchok
 description: >- # this means to ignore newlines until "baseurl:"
-  Iurii Krasnoshchok — Software Engineer, IT Consultant.
+  Iurii Krasnoshchok — Software Engineer, IT Consultant, DevOps, DBA, Solution Architect, CTO.
 
 url: "https://iurii.net"
 baseurl: "" # the subpath of your site, e.g. /blog
 email: hello@iurii.net
-phone: "+31638491853"
 location: "CET"
 twitter: https://twitter.com/iurii_k
 github: https://github.com/aka-rider/

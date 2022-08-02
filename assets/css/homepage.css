@@ -58,20 +58,25 @@
   display: flex;
   flex-direction: row;
   text-align: center;
+  justify-content: space-evenly;
 }
 
 .open-source-project-wrap {
   width: 100%;
+  justify-content: center;
   border: 1px solid var(--light-grey);
   border-radius: var(--border-radius);
   margin: 20px;
+}
+
+.open-source-project-wrap p {
+  min-height: 4em;
 }
 
 .open-source-project-wrap-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  vertical-align: middle;
   margin: 1em;
 }
 
@@ -119,7 +124,24 @@
 }
 
 @media only screen and (max-width: 600px) {
+  html,
+  body {
+    font-size: 1em;
+  }
+
   #photo {
     min-height: 750px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 }

@@ -87,6 +87,6 @@ section h2::before {
 }
 
 .btn-secondary {
-  color: white;
   background-color: #3e6a7d;
+  color: white;
 }
