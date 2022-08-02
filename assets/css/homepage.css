@@ -1,8 +1,8 @@
-#main {
+#photo {
   display: flex;
   flex-direction: row;
-  min-height: 800px;
   min-width: 100%;
+  min-height: 1000px;
   background-image: url("/assets/img/iurii-2560×1440.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,62 +10,74 @@
   padding: 0;
 }
 
-#main-photo {
+#photo-empty-area {
   flex: 50%;
 }
 
-#main-cta-area {
+#photo-cta-area {
   flex: 50%;
-  color: white;
   padding: 0 2em 0 2em;
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8));
 }
 
-#main-cta-area ul {
-  padding: 0 0 0 1em;
-}
-
-#main-cta-area a {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-#main-cta-area a span {
-  margin: 0 0.5em 0 0;
-  padding: 0;
-}
-
-#main-cta-area h1,
-#main-cta-area h3,
-#main-cta-area h5 {
+#photo-cta-area h1,
+#photo-cta-area h3,
+#photo-cta-area h5 {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 0 1em 0 1em;
   margin: 0;
-  color: #f0f0f0;
 }
 
-#main-cta-area h1 {
+#photo-cta-area h1 {
   margin-top: 2em;
+  color: white;
 }
 
-#main-cta-area h3,
-#main-cta-area h5 {
+#photo-cta-area h3,
+#photo-cta-area h5 {
   font-weight: 400;
+  color: var(--light-grey);
+}
+
+#photo-cta-area h5 {
+  padding-left: 1.5em;
+}
+
+#photo-cta-area ul {
+  padding: 0.5em 1em;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#photo-cta-area a {
+  color: var(--light-grey);
+}
+
+#photo-cta-area a span {
+  margin: 0 0.5em 0 0;
+  padding: 0;
+  color: white;
+}
+
+@media only screen and (max-width: 1500px) {
+  #photo {
+    min-height: 800px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
-  #main {
+  #photo {
     flex-direction: column;
+    min-height: 1000px;
   }
-  #main-cta-area {
+  #photo-empty-area {
+    min-height: 600px;
+  }
+  #photo-cta-area {
     background-image: linear-gradient(
       to bottom,
       transparent,
       rgba(0, 0, 0, 0.8)
     );
-  }
-  #main-photo {
-    min-height: 400px;
   }
 }
 
@@ -77,7 +89,7 @@
 
 .open-source-project-wrap {
   width: 100%;
-  border: 1px solid #e6e6e6;
+  border: 1px solid var(--light-grey);
   border-radius: var(--border-radius);
   margin: 20px;
 }
@@ -85,9 +97,13 @@
 .open-source-project-wrap-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   vertical-align: middle;
   margin: 1em;
+}
+
+.open-source-project-wrap-links a {
+  margin: 0.5em 1em;
 }
 
 .open-source-project-wrap-links span {
@@ -95,8 +111,11 @@
 }
 
 @media only screen and (max-width: 870px) {
-  #main {
+  #photo {
     background-image: url("/assets/img/iurii-720×1280.webp");
+  }
+  #photo-empty-area {
+    min-height: 700px;
   }
   #open-source-projects {
     flex-direction: column;

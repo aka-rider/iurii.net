@@ -45,7 +45,7 @@ ul {
 
 p {
   margin: 1em;
-  color: #7e7e7e;
+  color: var(--lighter-font);
 }
 
 section h2 {
