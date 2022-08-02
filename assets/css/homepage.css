@@ -1,8 +1,8 @@
 #photo {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   min-width: 100%;
-  min-height: 1000px;
+  min-height: 1200px;
   background-image: url("/assets/img/iurii-2560×1440.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,20 +11,19 @@
 }
 
 #photo-empty-area {
-  flex: 50%;
+  min-height: 700px;
 }
 
 #photo-cta-area {
-  flex: 50%;
-  padding: 0 2em 0 2em;
-  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8));
+  padding: 0 2em;
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
 }
 
 #photo-cta-area h1,
 #photo-cta-area h3,
 #photo-cta-area h5 {
   background-color: rgba(0, 0, 0, 0.1);
-  padding: 0 1em 0 1em;
+  padding: 0 1em;
   margin: 0;
 }
 
@@ -58,29 +57,6 @@
   color: white;
 }
 
-@media only screen and (max-width: 1500px) {
-  #photo {
-    min-height: 800px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  #photo {
-    flex-direction: column;
-    min-height: 1000px;
-  }
-  #photo-empty-area {
-    min-height: 600px;
-  }
-  #photo-cta-area {
-    background-image: linear-gradient(
-      to bottom,
-      transparent,
-      rgba(0, 0, 0, 0.8)
-    );
-  }
-}
-
 #open-source-projects {
   display: flex;
   flex-direction: row;
@@ -110,18 +86,43 @@
   padding-right: 0.5em;
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 880px) {
   #photo {
     background-image: url("/assets/img/iurii-720×1280.webp");
+    min-height: 1200px;
   }
+
   #photo-empty-area {
-    min-height: 700px;
+    min-height: 750px;
   }
+  #photo-cta-area {
+    padding: 0 0.5em;
+  }
+  #photo-cta-area {
+    padding: 0 0.5em;
+  }
+
+  #photo-cta-area h1,
+  #photo-cta-area h3,
+  #photo-cta-area h5,
+  #photo-cta-area ul {
+    padding: 0 0.5em;
+  }
+
   #open-source-projects {
     flex-direction: column;
   }
 
   .open-source-project-wrap {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #photo {
+    min-height: 500px;
+  }
+  #photo-empty-area {
+    min-height: 350px;
   }
 }
