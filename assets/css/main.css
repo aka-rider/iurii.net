@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700");
 @import url(icomoon.css);
+@import url(devicon.min.css);
 @import url(vars.css);
 @import url(header.css);
 @import url(homepage.css);
@@ -15,7 +16,7 @@ body {
   font-size: 1.1em;
   margin: 0;
   padding: 0;
-  color: #212529;
+  color: var(--black);
   width: 100%;
   height: 100%;
 }
@@ -45,7 +46,7 @@ ul {
 
 p {
   margin: 1em;
-  color: var(--lighter-font);
+  color: var(--grey);
 }
 
 section h2 {

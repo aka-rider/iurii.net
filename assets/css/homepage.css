@@ -1,3 +1,4 @@
+/* top photo section */
 #photo {
   display: flex;
   flex-direction: column;
@@ -54,6 +55,8 @@
   color: white;
 }
 
+/* open source projects section */
+
 #open-source-projects {
   display: flex;
   flex-direction: row;
@@ -87,6 +90,26 @@
 .open-source-project-wrap-links span {
   padding-right: 0.5em;
 }
+
+/* tech stack section */
+
+#techstack-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--light-grey);
+}
+
+#techstack-wrap i {
+  font-size: 64px;
+  vertical-align: middle;
+  padding: 0.2em 0.5em;
+}
+
+.techstack-misc {
+  color: var(--grey);
+}
+
+/* responsive */
 
 @media only screen and (max-width: 900px) {
   #photo {
