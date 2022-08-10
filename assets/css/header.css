@@ -7,8 +7,9 @@
   z-index: 9999;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  font-size: 15px;
+  justify-content: space-evenly;
+  font-size: 12px;
+  color: white;
 }
 
 #sticky-header span {
@@ -37,7 +38,6 @@
 
 #sticky-header-contacts a {
   color: white;
-  font-size: 12px;
 }
 
 #sticky-header-contacts span {

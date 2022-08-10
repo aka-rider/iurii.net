@@ -72,22 +72,23 @@ section h2::before {
   text-align: center;
 }
 
+.secondary {
+  color: var(--grey);
+}
+
 .button {
   font-weight: normal;
   font-size: 1em;
   vertical-align: middle;
   padding: 0.5em 1em 0.5em 1em;
   border-radius: var(--border-radius);
-  border: none;
-  color: var(--orange);
-}
-
-.btn-primary {
   background-color: #4183c4;
+  border: 3px solid #4183c4;
   color: white;
 }
 
 .btn-secondary {
-  background-color: #3e6a7d;
-  color: white;
+  background-color: inherit;
+  border: 2px solid var(--light-grey);
+  color: var(--grey);
 }

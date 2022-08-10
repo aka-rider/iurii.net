@@ -144,6 +144,11 @@
   .open-source-project-wrap {
     width: 90%;
   }
+
+  #techstack-wrap i {
+    font-size: 32px;
+    padding: 0.1em 0.3em;
+  }
 }
 
 @media only screen and (max-width: 600px) {
