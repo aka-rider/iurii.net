@@ -1,0 +1,26 @@
+#stand-with-ukraine-wrap {
+    position: absolute;
+    top: 65px;
+    height: 60px;
+    left: 2%;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#stand-with-ukraine {
+    margin-top: 10px;
+    height: 60px;
+}
+
+#stand-with-ukraine img {
+    float: left;
+}
+
+#stand-with-ukraine h3 {
+    float: right;
+    margin: 0;
+    padding: 0 1em 0;
+}
