@@ -1,0 +1,47 @@
+open-source-projects:
+  - name: Cachelot
+    image: /assets/img/cachelot.webp
+    desc: Lightning-fast embeddable LRU cache library and key-value in-memory storage server.
+    about: https://cachelot.io/
+    github: https://github.com/cachelot/cachelot
+
+  - name: nanoQ (aka nQ)
+    image: /assets/img/go.webp
+    desc: High-performance brokerless Pub/Sub for streaming real-time data with Golang.
+    about: https://medium.com/aigent/meet-nanoq-high-performance-brokerless-pub-sub-for-streaming-real-time-data-with-golang-6630d3067f4e
+    github: https://github.com/aigent/nq
+
+professional-services:
+  - service: Software Engineering Consulting
+    desc: >
+      Do you have an idea for a product? Additional features? Let's make it real. I can help to draft architecture, estimate costs, write code, and deploy the app.
+
+      Problems with the existing platform? I can make it more stable/predictable/performant.
+
+  - service: Staffing & Management
+    desc: >
+      The most brilliant engineers and talented managers for your company I can not promise. But I can help to hire the right people for the job.
+
+      I can make sure that teams have all the means for success. I can enable smooth teams growth.
+
+  - service: Product Owner & Business Analyst
+    desc: >
+      Technical requirements are where it all begins. Solid requirements don't guarantee success, but unclear or low-quality requirements mean failure.
+
+      I can pull requirements from the stakeholders, cross-check them, and create a prioritized backlog. I can work with teams, stakeholders, and product owners to create smooth requirements flow.
+
+  - service: Code review & Audit
+    desc: >
+      I don't believe in brilliant code — every line of code starts to smell sooner or later. I can ensure that the code does what is supposed to do and fits the budget.
+
+      Legacy platform? Let me create a refactoring plan or migration strategy.
+
+  - service: DevOps
+    desc: >
+      "It was working on my machine" is not something you want to hear. To launch a platform is one thing — to make deployments and releases stable, observable, and reproducible is another.
+      Cloud or bare metal? How much will it cost? Do I need CI/CD? How to set up monitoring and alerting? I don't have all the answers — I only have most of them.
+
+  - service: Databases Administration (DBA)
+    desc: >
+      Improve SQL query performance. Lower the bill for database usage. Migrate databases. Choose the best database management system for given requirements and budget.
+      Separate real-time OLTP and analytical OLAP workloads. Design database architecture. Write SQL and storage procedures. All of the above.

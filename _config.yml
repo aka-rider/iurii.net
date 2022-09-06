@@ -1,7 +1,7 @@
 # Main website config
 # All global variables are stored here
 title: Iurii /Yuriy/ Krasnoshchok
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Iurii Krasnoshchok — Software Engineer, IT Consultant, DevOps, DBA, Solution Architect, CTO.
 keywords: >
   iurii,yuriy,yurii,krasnoshchok,krasnoschok,software,programming,IT,engineering,development,DevOps,DBA
@@ -9,7 +9,7 @@ keywords: >
 url: "https://iurii.net"
 baseurl: "" # the subpath of your site, e.g. /blog
 email: hello@iurii.net
-location: "CET"
+location: "Europe"
 twitter: https://twitter.com/iurii_k
 github: https://github.com/aka-rider/
 linkedin: https://linkedin.com/in/iuriik/

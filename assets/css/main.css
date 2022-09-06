@@ -1,6 +1,7 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+/* formatter: off */
 ---
+/* Only the main Sass file needs front matter */
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700");
 @import url(icomoon.css);
@@ -73,6 +74,10 @@ section h2::before {
   text-align: center;
 }
 
+.grey-bg {
+  background-color: var(--light-grey);
+}
+
 .secondary {
   color: var(--grey);
 }
@@ -83,9 +88,11 @@ section h2::before {
   vertical-align: middle;
   padding: 0.5em 1em 0.5em 1em;
   border-radius: var(--border-radius);
+  border: none;
   background-color: #4183c4;
-  border: 3px solid #4183c4;
   color: white;
+  white-space: nowrap;
+  min-width: 5em;
 }
 
 .btn-secondary {

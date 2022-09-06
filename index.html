@@ -31,36 +31,46 @@ layout: default
         <h2>Open Source Projects</h2>
     </a>
     <p>I like open source. As a programmer, I learnt and took a lot from Open Source domain. I contribute whenever I can.</p>
-    <div id="open-source-projects">
-        <div class="open-source-project-wrap">
-            <h3>Cachelot</h3>
-            <img src="/assets/img/cachelot.webp" width="256px" height="256px" alt="Cachelot logo" />
-            <p>Lightning-fast embeddable LRU cache library and key-value in-memory storage server.</p>
+    <div class="box-container">
+        {% for oss in site.data.homepage.open-source-projects %}
+        <div class="box-element open-source-project-wrap">
+            <img src="{{oss.image}}" width="256px" height="256px" />
+            <h3>{{oss.name}}</h3>
+            <p>{{oss.desc}}</p>
             <div class="open-source-project-wrap-links">
-                <a href="https://cachelot.io/" target="_blank" class="button btn-secondary">Read More</a>
-                <a href="https://github.com/cachelot/cachelot" class="button btn-primary" target="_blank"><span class="icon-github"></span>GitHub</a>
+                <a href="{{oss.about}}" target="_blank" class="button btn-secondary">About</a>
+                <a href="{{oss.github}}" class="button btn-primary" target="_blank"><span class="icon-github"></span>GitHub</a>
             </div>
         </div>
-        <div class="open-source-project-wrap">
-            <h3>nanoQ</h3>
-            <img src="/assets/img/go.webp" width="256px" height="256px" alt="Go programming language logo" />
-            <p>High-performance brokerless Pub/Sub for streaming real-time data with Golang</p>
-            <div class="open-source-project-wrap-links">
-                <a href="https://medium.com/aigent/meet-nanoq-high-performance-brokerless-pub-sub-for-streaming-real-time-data-with-golang-6630d3067f4e"
-                    target="_blank" class="button btn-secondary">Read More</a>
-                <a href="https://github.com/aigent/nq" class="button btn-primary" target="_blank"><span class="icon-github"></span>GitHub</a>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </section>
+
+<!-- professional services section -->
+
+<section class="text-center">
+    <a name="professional-services" id="professional-services">
+        <h2>Professional Services</h2>
+    </a>
+    <p>Can I help you with more than 20 years of professional experience in IT?</p>
+    <div class="box-container">
+        {% for svc in site.data.homepage.professional-services %}
+        <div class="box-element professional-services-wrap">
+            <h3>{{svc.service}}</h3>
+            <p>{{svc.desc}}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
 
 <!-- tech stack section -->
 
 <section class="text-center">
     <h2>Tech Stack</h2>
-    <p>I don't have any preferences when it comes to technologies and programming languages. Whatever tool is the right for the job.</p>
+    <p>I don't have any preferences when it comes to technologies and programming languages. Whatever tool is suited best for the job.</p>
     <p>Here are some technologies I work or used to work with.</p>
-    <div id="techstack-wrap">
+    <div id="techstack-wrap" class="grey-bg">
         <!-- primary skills -->
         <i class="devicon-cplusplus-plain-wordmark" title="C++ programming language"></i>
         <i class="devicon-c-plain-wordmark" title="C programming language"></i>

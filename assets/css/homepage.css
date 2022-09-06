@@ -57,19 +57,27 @@
 
 /* open source projects section */
 
-#open-source-projects {
+.box-container {
   display: flex;
   flex-direction: row;
   text-align: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box-element {
+  border: 1px solid var(--light-grey);
+  border-radius: var(--border-radius);
+  flex-basis: 45%;
+  margin-bottom: 20px;
 }
 
 .open-source-project-wrap {
-  width: 100%;
   justify-content: center;
-  border: 1px solid var(--light-grey);
-  border-radius: var(--border-radius);
-  margin: 20px;
+}
+
+.open-source-project-wrap img {
+  margin: 0;
 }
 
 .open-source-project-wrap p {
@@ -80,15 +88,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1em;
+  margin-bottom: 1em;
+  width: 100%;
 }
 
 .open-source-project-wrap-links a {
-  margin: 0.5em 1em;
+  margin: 0.3em 0.5em;
 }
 
 .open-source-project-wrap-links span {
   padding-right: 0.5em;
+}
+
+/* professional services section */
+
+.professional-services-wrap {
+  background-color: white;
+  border: 1px solid var(--grey);
+  border-radius: var(--border-radius);
 }
 
 /* tech stack section */
@@ -96,7 +113,6 @@
 #techstack-wrap {
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--light-grey);
 }
 
 #techstack-wrap i {
@@ -115,6 +131,10 @@
   #photo {
     min-height: 800px;
   }
+
+  .box-element {
+    flex-basis: 90%;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -126,6 +146,7 @@
   #photo-cta-area {
     padding: 0 0.5em;
   }
+
   #photo-cta-area {
     padding: 0 0.5em;
   }
@@ -152,6 +173,7 @@
 }
 
 @media only screen and (max-width: 600px) {
+
   html,
   body {
     font-size: 1em;
@@ -162,11 +184,11 @@
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   h3 {
